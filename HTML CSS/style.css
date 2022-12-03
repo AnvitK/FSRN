@@ -1,0 +1,66 @@
+.main-form {
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.heading-form {
+    text-align: center;
+    color: blue;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.element-form {
+    padding: 8px 0px;
+    margin: 10px 0px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    padding: 6px 9px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.label-name {
+    color: rgb(122, 0, 237);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#password {
+    color: green;
+}
+
+input {
+    border-radius: 7px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+    .label-name {
+        color: red;
+    }
+
+    .main-form {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .label-name {
+        color: gray;
+    }
+}

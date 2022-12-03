@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!-- tells brower usage of latest version of html -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sample-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aqua;
+            height: auto;
+            padding: 10px;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="basic">
+        <h1>My First HTML Page!</h1>
+        <h2>My First HTML Page!</h2>
+        <h3>My First HTML Page!</h3>
+        <h4>My First HTML Page!</h4>
+        <h5>My First HTML Page!</h5>
+        <h6>My First HTML Page!</h6>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cupiditate minima obcaecati repudiandae
+            error culpa ullam ad dolores, eaque officiis aperiam mollitia dicta ut debitis cumque, facilis voluptate
+            aspernatur? Odio!</p>
+    
+        <a href="https://www.google.com/">Google</a>
+        <br>
+        <img  style="width: 100px; height: 100px;" src="https://media.geeksforgeeks.org/img-practice/banner/full-stack-node-thumbnail.png?v=19322" alt="FSRN"><img/>
+    </div>
+
+    <br>
+
+    <!-- <div class="in-line-block"> -->
+        <!-- inline elements -->
+        <!-- <a href="https://www.amazon.in/" target="_blank">Amazon</a>
+        <a href="https://www.flipkart.com/" target="_blank">Flipkart</a>
+        <input type="text">
+        <button></button>
+        <img>
+        <input> -->
+
+
+        <!-- block elements -->
+        <!-- <h5>HEADINGS!!</h5>
+        <h6>HEADINGS!!</h6>
+        <div ></div>
+        <form></form>
+        <li></li>
+        <ol></ol>
+        <p></p>
+        <section></section>
+    </div> -->
+
+    <div class="sample-form">
+        <form class="main-form" action="">
+            <h1 class="heading-form">Sign Up Form</h1>
+            <div class="element-form">
+                <label class="label-name">Enter Name: </label>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="element-form">
+                <label class="label-name">Enter Email: </label>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="element-form">
+                <label class="label-name" id="password">Enter Password: </label>
+                <input type="password" placeholder="password">
+            </div>
+            <div class="btn-container">
+                <button class="btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
